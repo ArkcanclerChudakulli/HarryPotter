@@ -21,7 +21,7 @@
 }
 
 #eval{
-	height: 200px;
+	height: 100%;
 	width: 200px;
 	/* background:url("../img/mirror.png"); */
 	background-repeat: no-repeat;
@@ -29,8 +29,7 @@
 }
 
 #mirror{
-	height: 400px;
-	width: 1000px;
+	width: 100%;
 	/* background:url("../img/mirror.png"); */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -42,7 +41,7 @@
 }
 
 #eval_txt {
-	font-size: 30px;
+	font-size: 25px;
 }
 
 .blue{
@@ -97,7 +96,7 @@
     to { opacity: 0; /* Прозрачный текст */ }
    }
    
-.hint:hover {
+.pointer:hover {
 	cursor: pointer;
 	opacity: 0.5;
 }
